@@ -6,9 +6,21 @@
 
 /* GENERICS */
 
+/* generics flex */
+
 .d-flex {
     display: flex;
 }
+
+.j-center {
+    justify-content: center;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+/* text align */
 
 .text-center {
     text-align: center;
@@ -17,6 +29,8 @@
 .text-right {
     text-align: right;
 }
+
+/* background color */
 
 .bg-golden {
     background-color: goldenrod;
@@ -34,28 +48,62 @@
     background-color: pink;
 }
 
+.bg-white {
+    background-color: white;
+}
+
+.bg-azure {
+    background-color: rgb(41, 190, 190);
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+/* margin e padding */
+
 .m-autocenter {
     margin: 0 auto;
 }
 
-.p8 {
+.p-xs {
     padding: 8px;
 }
 
-.p15-top-bottom {
+.psmall-top-bottom {
     padding: 15px 0;
 }
 
-.p30-top-bottom {
+.pmedium-top-bottom {
     padding: 30px 0;
 }
+
+.plarge-top-bottom {
+    padding: 40px 0;
+}
+
+/* borders */
 
 .border-dash {
     border: 1px dashed black;
 }
 
+/* containers and sizes */
+
 .container {
     width: 1090px;
+}
+
+.h-medium {
+    height: 400px;
+}
+
+.h-large {
+    height: 550px;
 }
 
 /* NAVBAR */
@@ -89,7 +137,18 @@
 
 .sub-container {
     width: 800px;
-    height: 300px;
 }
 
 /* MAIN CONTENT */
+
+.container-l {
+    width: 100%;
+}
+
+.container-m {
+    width: 65%;
+}
+
+.container-s {
+    width: 35%;
+}
