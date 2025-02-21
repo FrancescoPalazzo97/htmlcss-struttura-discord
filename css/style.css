@@ -183,10 +183,12 @@ footer .p-xs {
     padding: 3px 5px;
 }
 
-footer .logo {
-
+.btn>button {
+    transition: 0.5s;
 }
 
-footer .btn {
-
+.btn>button:hover {
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
 }
