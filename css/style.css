@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.j-between {
+    justify-content: space-between;
+}
+
 .nowrap {
     flex-wrap: nowrap;
 }
@@ -72,6 +76,10 @@
 
 .m-autocenter {
     margin: 0 auto;
+}
+
+.mxxxs-bottom {
+    margin-bottom: 1px;
 }
 
 .p-xs {
@@ -170,6 +178,10 @@ header .logo {
 /* MAIN CONTENT */
 
 /* FOOTER */
+
+footer .p-xs {
+    padding: 3px 5px;
+}
 
 footer .logo {
 
