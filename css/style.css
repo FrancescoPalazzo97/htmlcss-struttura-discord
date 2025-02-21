@@ -64,6 +64,10 @@
     background-color: green;
 }
 
+.bg-black {
+    background-color: black;
+}
+
 /* margin e padding */
 
 .m-autocenter {
@@ -98,6 +102,30 @@
     width: 1090px;
 }
 
+.container-xxl {
+    width: 100%;
+}
+
+.container-l {
+    width: 70%;
+}
+
+.container-m {
+    width: 65%;
+}
+
+.container-s {
+    width: 35%;
+}
+
+.container-xs {
+    width: 30%;
+}
+
+.container-xxs {
+    width: 25%;
+}
+
 .h-medium {
     height: 400px;
 }
@@ -108,7 +136,7 @@
 
 /* NAVBAR */
 
-.logo {
+header .logo {
     width: 20%;
 }
 
@@ -141,14 +169,12 @@
 
 /* MAIN CONTENT */
 
-.container-l {
-    width: 100%;
+/* FOOTER */
+
+footer .logo {
+
 }
 
-.container-m {
-    width: 65%;
-}
+footer .btn {
 
-.container-s {
-    width: 35%;
 }
