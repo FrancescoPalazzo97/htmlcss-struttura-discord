@@ -6,6 +6,10 @@
 
 /* GENERICS */
 
+.d-flex {
+    display: flex;
+}
+
 .text-center {
     text-align: center;
 }
@@ -22,8 +26,28 @@
     background-color: aqua;
 }
 
-.p {
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.m-autocenter {
+    margin: 0 auto;
+}
+
+.p8 {
     padding: 8px;
+}
+
+.p15-top-bottom {
+    padding: 15px 0;
+}
+
+.p30-top-bottom {
+    padding: 30px 0;
 }
 
 .border-dash {
@@ -31,10 +55,7 @@
 }
 
 .container {
-    margin: 0 auto;
-    padding: 15px 0;
     width: 1090px;
-    display: flex;
 }
 
 /* NAVBAR */
@@ -63,3 +84,12 @@
     color: blue;
     border: 1px solid blue;
 }
+
+/* SPLASHSCREEN */
+
+.sub-container {
+    width: 800px;
+    height: 300px;
+}
+
+/* MAIN CONTENT */
