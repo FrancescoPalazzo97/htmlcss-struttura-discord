@@ -82,16 +82,17 @@
     /* Margin */
     --m-center: 0 auto;
 
-    /* Background color */
-    --bg1: goldenrod;
-    --bg2: aqua;
-    --bg3: blue;
-    --bg4: pink;
-    --bg5: white;
-    --bg6: rgb(41, 190, 190);
-    --bg7: gray;
-    --bg8: green;
-    --bg9: black;
+    /* Colors */
+    --color1: white;
+    --color2: black;
+    --color3: gray;
+    --color4: blue;
+    --color5: red;
+    --color6: green;
+    --color7: goldenrod;
+    --color8: aqua;
+    --color9: pink;
+    --color10: rgb(41, 190, 190);    
 
     /* Width */
     --width-maincontainer-1080p: 1090px; 

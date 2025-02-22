@@ -37,39 +37,39 @@
 /* background color */
 
 .bg-golden {
-    background-color: var(--bg1);
+    background-color: var(--color7);
 }
 
 .bg-2 {
-    background-color: var(--bg2);
+    background-color: var(--color8);
 }
 
 .bg-blue {
-    background-color: var(--bg3);
+    background-color: var(--color4);
 }
 
 .bg-pink {
-    background-color: var(--bg4);
+    background-color: var(--color9);
 }
 
 .bg-white {
-    background-color: var(--bg5);
+    background-color: var(--color1);
 }
 
 .bg-azure {
-    background-color: var(--bg6);
+    background-color: var(--color10);
 }
 
 .bg-gray {
-    background-color: var(--bg7);
+    background-color: var(--color3);
 }
 
 .bg-green {
-    background-color: var(--bg8);
+    background-color: var(--color6);
 }
 
 .bg-black {
-    background-color: var(--bg9);
+    background-color: var(--color2);
 }
 
 /* margin e padding */
