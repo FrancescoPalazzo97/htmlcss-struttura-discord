@@ -1,3 +1,92 @@
+/* CSS properties */
+
+:root {
+    /* Spaziature */
+    --space-1px: 1px;
+    --space-xxs: 5px;
+    --space-xs: 10px;
+    --space-s: 15px;
+    --space-m: 20px;
+    --space-l: 25px;
+    --space-xl: 30px;
+    --space-xxl: 35px;
+    --space-3xl: 40px;
+    /* Spaziature top bottom*/
+    --space-tb-1px: 1px 0;
+    --space-tb-xxs: 5px 0;
+    --space-tb-xs: 10px 0;
+    --space-tb-s: 15px 0;
+    --space-tb-m: 20px 0;
+    --space-tb-l: 25px 0;
+    --space-tb-xl: 30px 0;
+    --space-tb-xxl: 35px 0;
+    --space-tb-3xl: 40px 0;
+    /* Spaziature left right*/
+    --space-lr-1px: 0 1px;
+    --space-lr-xxs: 0 5px;
+    --space-lr-xs: 0 10px;
+    --space-lr-s: 0 15px;
+    --space-lr-m: 0 20px;
+    --space-lr-l: 0 25px;
+    --space-lr-xl: 0 30px;
+    --space-lr-xxl: 0 35px;
+    --space-lr-3xl: 0 40px;
+    /* Spaziature top*/
+    --space-t-1px: 1px 0 0 0;
+    --space-t-xxs: 5px 0 0 0;
+    --space-t-xs: 10px 0 0 0;
+    --space-t-s: 15px 0 0 0;
+    --space-t-m: 20px 0 0 0;
+    --space-t-l: 25px 0 0 0;
+    --space-t-xl: 30px 0 0 0;
+    --space-t-xxl: 35px 0 0 0;
+    --space-t-3xl: 40px 0 0 0;
+    /* Spaziature bottom*/
+    --space-b-1px: 0 0 1px 0;
+    --space-b-xxs: 0 0 5px 0;
+    --space-b-xs: 0 0 10px 0;
+    --space-b-s: 0 0 15px 0;
+    --space-b-m: 0 0 20px 0;
+    --space-b-l: 0 0 25px 0;
+    --space-b-xl: 0 0 30px 0;
+    --space-b-xxl: 0 0 35px 0;
+    --space-b-3xl: 0 0 40px 0;
+    /* Spaziature right*/
+    --space-r-1px: 0 1px 0 0;
+    --space-r-xxs: 0 5px 0 0;
+    --space-r-xs: 0 10px 0 0;
+    --space-r-s: 0 15px 0 0;
+    --space-r-m: 0 20px 0 0;
+    --space-r-l: 0 25px 0 0;
+    --space-r-xl: 0 30px 0 0;
+    --space-r-xxl: 0 35px 0 0;
+    --space-r-3xl: 0 40px 0 0;
+    /* Spaziature left*/
+    --space-l-1px: 0 0 0 1px;
+    --space-l-xxs: 0 0 0 5px;
+    --space-l-xs: 0 0 0 10px;
+    --space-l-s: 0 0 0 15px;
+    --space-l-m: 0 0 0 20px;
+    --space-l-l: 0 0 0 25px;
+    --space-l-xl: 0 0 0 30px;
+    --space-l-xxl: 0 0 0 35px;
+    --space-l-3xl: 0 0 0 40px;
+    /* Margin */
+    --m-center: 0 auto;
+    /* Background color */
+    --bg1: goldenrod;
+    --bg2: aqua;
+    --bg3: blue;
+    --bg4: pink;
+    --bg5: white;
+    --bg6: rgb(41, 190, 190);
+    --bg7: gray;
+    --bg8: green;
+    --bg9: black;
+    /* Width */
+    --width-maincontainer-1080p: 1090px; 
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -37,65 +126,73 @@
 /* background color */
 
 .bg-golden {
-    background-color: goldenrod;
+    background-color: var(--bg1);
 }
 
-.bg-aqua {
-    background-color: aqua;
+.bg-2 {
+    background-color: var(--bg2);
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: var(--bg3);
 }
 
 .bg-pink {
-    background-color: pink;
+    background-color: var(--bg4);
 }
 
 .bg-white {
-    background-color: white;
+    background-color: var(--bg5);
 }
 
 .bg-azure {
-    background-color: rgb(41, 190, 190);
+    background-color: var(--bg6);
 }
 
 .bg-gray {
-    background-color: gray;
+    background-color: var(--bg7);
 }
 
 .bg-green {
-    background-color: green;
+    background-color: var(--bg8);
 }
 
 .bg-black {
-    background-color: black;
+    background-color: var(--bg9);
 }
 
 /* margin e padding */
 
+/* Margin */
+
 .m-autocenter {
-    margin: 0 auto;
+    margin: var(--m-center);
 }
 
-.mxxxs-bottom {
-    margin-bottom: 1px;
+.margin-b-min {
+    margin: var(--space-b-1px);
 }
 
-.p-xs {
-    padding: 8px;
+/* Padding */
+
+.padding-xs {
+    padding: var(--space-xs);
 }
 
-.psmall-top-bottom {
-    padding: 15px 0;
+.padding-tp-xs{
+    padding: var(--space-tb-xs);
 }
 
-.pmedium-top-bottom {
-    padding: 30px 0;
+.padding-tp-s {
+    padding: var(--space-tb-s);
 }
 
-.plarge-top-bottom {
-    padding: 40px 0;
+.padding-tp-xl {
+    padding: var(--space-tb-xl);
+}
+
+.padding-tp-3xl {
+    padding: var(--space-tb-3xl);
 }
 
 /* borders */
@@ -107,7 +204,7 @@
 /* containers and sizes */
 
 .container {
-    width: 1090px;
+    width: var(--width-maincontainer-1080p);
 }
 
 .container-xxl {
@@ -179,7 +276,7 @@ header .logo {
 
 /* FOOTER */
 
-footer .p-xs {
+footer .padding-xs {
     padding: 3px 5px;
 }
 
