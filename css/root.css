@@ -92,7 +92,13 @@
     --bg7: gray;
     --bg8: green;
     --bg9: black;
-    
+
     /* Width */
     --width-maincontainer-1080p: 1090px; 
+    --width-maincontainer-1440p: 1450px;
+
+    /* Height */
+    --height-m: 400px;
+    --height-m: 500px;
+
 }
